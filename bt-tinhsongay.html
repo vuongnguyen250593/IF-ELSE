@@ -16,8 +16,8 @@
     <p>Tháng.....có.....ngày</p>
 </body>
 <script>
-    let thang = parseInt(document.getElementById("thang").value);
     function tinh() {
+        let thang = parseInt(document.getElementById("thang").value);
         switch (thang) {
             case 1:
             case 3:
@@ -28,7 +28,7 @@
             case 12:
                 document.getElementById("result").innerHTML = "Tháng có 31 ngày";
                 break;
-            case 4:
+            case 4: 
             case 6:
             case 9:
             case 11:
